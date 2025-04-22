@@ -1,64 +1,72 @@
-# Agricultural Crop Segmentation Platform 🌱
+# 🌱 Agricultural Crop Segmentation Platform
 
-Welcome to the **Agricultural Crop Segmentation Platform**! This platform is designed to assist individuals and organizations in analyzing and segmenting agricultural crops through modern machine learning and computer vision technologies. With advanced deep learning models, users can seamlessly segment and classify agricultural products.
+Welcome to the **Agricultural Crop Segmentation Platform** – a powerful tool that uses deep learning and computer vision to analyze, segment, and classify agricultural crops.  
+This platform is designed to support both individuals and organizations in improving crop health assessment and agricultural decision-making.
 
-## Introduction 👨‍🌾👩‍🌾
+---
 
-The **Agricultural Crop Segmentation Platform** is a robust web application designed using **Streamlit**, focusing on **image segmentation and classification** of agricultural crops. This tool utilizes **deep learning-based segmentation** to provide accurate analysis of crop health and classification.
+## 👨‍🌾 Introduction
+
+This is a robust web-based solution built with **Streamlit**, focused on **image segmentation** and **classification** of crops.  
+By integrating deep learning models like **ResNet**, the platform offers accurate segmentation and insightful analysis for various types of agricultural products.
 
 ---
 
 ## Features ✨
 
-### Crop Segmentation & Classification 🌾🍃
-This feature leverages powerful deep learning models like **ResNet** to segment and classify agricultural crops. Once the segmentation is complete, the platform provides the following benefits:
-- **Accurate Segmentation**: The tool identifies and segments the agricultural crops in an image, ensuring precise results.
-- **Detailed Crop Health Analysis**: After segmentation, users can analyze the health of crops based on extracted features.
-- **Improved Agricultural Insights**: Provides insights to farmers and researchers for better decision-making.
+### 🌾 Crop Segmentation & Classification
+
+Harnessing the power of deep learning, the platform provides:
+
+- ✅ **Precise segmentation** of crops from images  
+- 📊 **Detailed health analysis** of segmented crops based on visual features  
+- 🌍 **Smart insights** to assist farmers and researchers in decision-making 
 
 ---
 
 ## Technologies Used ⚙️
 
-The Agricultural Crop Segmentation Platform is built using cutting-edge technologies to ensure performance, scalability, and ease of use. Here's an overview of the technologies used:
-
-- **Streamlit**: A powerful Python framework for building interactive data applications.
-- **OpenCV**: A computer vision library used for image and video processing.
-- **Pre-trained Deep Learning Models**: ResNet models trained on large datasets to provide accurate segmentation and classification results.
+- **Streamlit** – for building the interactive web interface  
+- **OpenCV** – for image and video processing  
+- **ResNet, VGG16, EfficientNet** – deep learning models trained for classification and segmentation tasks  
 
 ---
 
 ## Dataset Information 📊
 
-This project uses the **Fruits Classification Dataset** to train and evaluate classification models. The dataset can be downloaded from Kaggle using the link below:
+The project uses the [Fruits Classification Dataset](https://www.kaggle.com/datasets) available on Kaggle.
 
-[Download Fruits Classification Dataset](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition)
+**Setup instructions:**
 
-### Instructions:
-1. Download the dataset from Kaggle.
-2. Extract the dataset and place the images into the **`Classification-Nutrition-Guide/agricultural_classification/`** directory.
-
----
-
-## How to Use 🎯
-**Crop Segmentation & Classification Usage 📸**
-- From the sidebar, click on Crop Segmentation & Classification.
-- Upload an image of an agricultural crop.
-- The platform will display the segmented output, along with detailed classification results.
-- The platform will also suggest insights based on the segmentation.
+1. Download the dataset from Kaggle  
+2. Extract the contents  
+3. Place the images in:  Classification-Nutrition-Guide/agricultural_classification/
 
 ---
 
-## Accuracy 📊
-The evaluation of the deep learning models used for segmentation and classification demonstrates high performance:
+## 🎯 How to Use
 
-**EfficientNet:** Achieves **97% accuracy**, providing highly reliable results for agricultural product classification.
+### Crop Segmentation & Classification Flow
 
-**VGG16:** Reaches **96% accuracy**, offering robust classification performance.
+1. Launch the app using Streamlit  
+2. Use the sidebar and select **Crop Segmentation & Classification**  
+3. Upload an image of an agricultural crop  
+4. The app will:
+- Display the segmented image  
+- Classify the crop type  
+- Suggest relevant insights based on the analysis  
 
-**ResNet50:** Maintains **95% accuracy**, with solid performance across various agricultural product categories.
+---
 
-These models have been rigorously evaluated and validated on large datasets of agricultural products, ensuring that the platform can reliably classify and segment various crops with high accuracy.
+## 📈 Model Accuracy
+
+| Model        | Accuracy  |
+|--------------|-----------|
+| **EfficientNet** | 97%        |
+| **VGG16**        | 96%        |
+| **ResNet50**     | 95%        |
+
+All models have been trained and validated on diverse datasets, ensuring robust and consistent performance across various crop types.
 
 ---
 
@@ -76,6 +84,15 @@ agricultural-crop-segmentation/Classification-Nutrition-Guide/
 
 ---
 
-## Author ✍️
-Developed by **Berraho Khalil**
+## 👥 Team
+
+This project was developed collaboratively by:
+
+- **Rim Taouab** 
+- **Berraho Khalil**  
+- **Aymane Souiles**  
+- **Akestaf Ahmed**
+- **Yasser Salhi**
+
+> Each member actively contributed to the design, development, training, and testing of the platform. A true team effort!
 
